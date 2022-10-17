@@ -1,0 +1,447 @@
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%
+}
+
+section {
+    width: 100%;
+    background-color: #940028;
+    padding: 30px 5%;
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+form {
+    font-family: 'Manrope', sans-serif;
+    color:black;
+    padding: 30px;
+    background-color:#E8EBEE;
+}
+
+footer {
+    background-color:#E8EBEE;
+    padding: 30px;
+}
+
+.bgimg {
+    background-image: url('./Assets/Asset-1.jpg'); 
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-title {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'Manrope', sans-serif;
+    color: #940028;
+    background-color: #E2E6E9;
+    border-radius: 0%;
+    border-color: #940028;
+    box-shadow: none;
+}
+
+.btn:hover {
+    font-family: 'Manrope', sans-serif;
+    color: #E2E6E9;
+    background-color: #940028;
+    border-radius: 0%;
+    border-color: #940028;
+    box-shadow: none;
+}
+
+.btn:focus{
+    font-family: 'Manrope', sans-serif;
+    color: #E2E6E9;
+    background-color: #940028;
+    border-radius: 0%;
+    border-color: #940028;
+    box-shadow: none;
+}
+
+#titulos{
+    font-family: 'Prata', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#subtitulos{
+    font-family: 'Prata', sans-serif;
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#subtitulo{
+    font-family: 'Prata', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+#textos {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+#izquierdo {
+    border-width: 0,5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-color: #940028;
+}
+
+#izquierdo-solo {
+    background-color: #940028;
+    margin-left: 5px;
+    border-width: 1px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-color: #940028;
+}
+
+#central {
+    border-width: 0,5px;
+    border-radius: 0%;
+    border-color: #940028;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#derecho {
+    border-width: 0,5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-color: #940028;
+}
+
+#derecho-solo {
+    background-color: #940028;
+    margin-left: 5px;
+    border-width: 0,5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-color: #940028;
+}
+
+#extractos {
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+    color: white;
+}
+
+#abogacia {
+    background: #5E0000;
+    border-bottom-left-radius: 10px;
+}
+
+#actuario {
+    background: #2C2551;
+}
+
+#admin {
+    background: #B82220;
+    border-bottom-right-radius: 10px;
+}
+
+#analitica {
+    background: #FF9F08;
+    border-bottom-left-radius: 10px;
+}
+
+#BA{
+    background: #B19C7C;
+}
+
+#politica{
+    background: #02809F;
+    border-bottom-right-radius: 10px;
+}
+
+#contador{
+    background: #2E4EB3;
+    border-bottom-left-radius: 10px;
+}
+
+#economia{
+    background: #99C000;
+}
+
+#empresarial{
+    background: #D6A351;
+    border-bottom-right-radius: 10px;
+}
+
+#finanzas{
+    background: #613685;
+    border-bottom-left-radius: 10px;
+}
+
+#inginf{
+    background: #ED6C00;
+}
+
+#mkt{
+    background: #02814E;
+    border-bottom-right-radius: 10px;
+}
+
+#negdig{
+    background: #45C7DE;
+    border-bottom-left-radius: 10px;
+}
+
+#internacional{
+    background: #A31F6B;
+    border-bottom-right-radius: 10px;
+}
+
+#complemento {
+    width: 100%;
+    background-color: #940028;
+    padding: 30px 5%;
+}
+
+#externo {
+    background-color: #E2E6E9;
+    border-width: 3px;
+    border-color: #E2E6E9;
+    border-radius: 0px;
+}
+
+#nombre {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: #940028;
+}
+
+#descripcion {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#final-section {
+    width: 100%;
+    background-color: #940028;
+    padding: 30px 5%;
+}
+
+#envio {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    background-color: #940028;
+    border-radius: 0%;
+    border-color: #940028;
+}
+
+#copyright {
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/*MOBILE*/
+
+@media (max-width: 600px) {
+    h1#titulos {
+        font-size: 35px !important;
+    }
+    h1 u {
+        font-size: 35px !important;
+    }
+}
+
+/*WHATSAPP*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.imagen-wpp {
+    width: fit-content;
+    transition: all .3s ease;
+}
+
+.imagen-wpp:hover {
+    transform: scale(1.1);
+}
+
+.boton-wpp {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.boton-wpp a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.boton-wpp img {
+    width: 50px
+}
+
+.wpp-caja {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .3s ease;
+    display: none;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
+}
+
+.wpp-header {
+    width: 100%;
+    max-width: 300px;
+    background-color: #24ce64;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.wpp-header h4 {
+    margin-bottom: 7px;
+    font-size: 20px;
+    position: relative;
+}
+
+.cerrar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.wpp-contactos {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.wpp-contactos a {
+    width: 100%;
+}
+
+.contacto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+    transition: all .3s ease;
+}
+
+.nombre{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0
+}
+
+.numero{
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.contacto:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.contacto img {
+    width: 50px;
+    transition: all .3s ease;
+}
+
+.contacto:hover img {
+    transform: scale(0.9);
+}
+
+.contacto div {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.mostrar {
+    opacity: 1;
+    display: block;
+}
+
+@media (max-width:700px){
+    .boton-wpp {
+        right: 15px !important;
+        bottom: 15px !important;
+        cursor: pointer;
+    }
+    .boton-wpp img{
+        width: 50px
+    }
+    .wpp-header {
+        width: 300px;
+        padding: 5px 20px;
+    }
+    .wpp-header h4 {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .wpp-header p{
+        font-size: 12px;
+        margin-bottom: 5px;
+        line-height: 13px;
+    }
+    .contacto {
+        padding: 3px 15px;
+    }
+    .wpp-contactos{
+        width: 300px;
+        max-height: 250px;
+        overflow: auto;
+        background-color: white;
+    }
+    .wpp-contactos a {
+        width: 100%;
+    }
+    .nombre{
+        font-size: 14px;
+    }
+    .numero{
+        font-size: 12px;
+    }
+    .cerrar {
+        top: 10px;
+    }
+    .contacto img {
+        width: 20px;
+    }
+}
