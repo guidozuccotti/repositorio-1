@@ -179,7 +179,7 @@
   </div>
   <form>
       <div class="form-group">
-        <label for="exampleFormControlText1">Nombre y Apellido</label>
+        <label for="exampleFormControlText1">Nombre(s) y Apellido(s)</label>
         <input type="text" class="form-control" id="exampleFormControlText1">
       </div>
       <br>
@@ -188,30 +188,31 @@
         <input type="email" class="form-control" id="exampleFormControlInput1">
       </div>
       <br>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Estudios de interés</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option> ▼ seleccione una opción</option>
-          <option>carreras de grado</option>
-          <option>carreras de posgrado</option>
-          <option>escuela de negocios</option>
-        </select>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="form-group">
-        <label for="exampleFormControlText2">Carreras elegidas</label>
-        <input type="text" class="form-control" id="exampleFormControlText2">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Mensaje adicional</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <br>
-      <button type="submit" class="btn btn-primary" id="envio">Enviar</button>
-    </form>
+      <fieldset>
+        <legend>Estudio de interés</legend>
+        <div>
+          <label><input type="radio" name="option" value="Option 1">Carreras de Grado</label>
+        </div>
+        <div>
+          <label><input type="radio" name="option" value="Option 2">Carreras de Posrado</label>
+        </div>
+        <div>
+          <label><input type="radio" name="option" value="Option 3">Escuela de Negocios</label>
+        </div>
+    </fieldset>
+    <br>
+    <div class="form-group">
+      <label for="exampleFormControlText2">Carrera(s) elegida(s)</label>
+      <input type="text" class="form-control" id="exampleFormControlText2">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Mensaje adicional</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" id="envio">Enviar</button>
+  </form>
 </section>
 <div class="boton-wpp">
   <div id="caja" class="wpp-caja">
